@@ -1,0 +1,145 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-style: italic;
+    margin: 5px;
+    padding: 3px;
+}
+
+
+.displaylampu {
+    background-color: aqua;
+    padding: 12px;
+    height: 100%;
+
+}
+
+
+.desainlampu {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    right: 40px;
+    left: 40px;
+    padding: 24px;
+    margin: 10px;
+}
+
+.toggledesain {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.button {
+    font-size: 1rem;
+    color: black;
+    margin: 0 25px;
+    padding: 15px;
+    left: 10px;
+    right: 15px;
+    display: absolute;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+
+.button :hover {
+
+    color: white;
+    background-color: blue;
+    transition: .2s ease-in-out;
+    transition-delay: .0, 1s;
+    border-radius: 14px;
+}
+
+.buttonstyle {
+    font-size: 16px;
+    font-family: algerian;
+    border-radius: 8px;
+
+}
+
+.buttonstyle2 {
+    font-size: 16px;
+    font-family: algerian;
+    border-radius: 8px;
+}
+
+.lampu1 {
+    margin: 0 80px;
+    padding: 3px;
+
+    
+}
+
+.lampu2 {
+    top: 5px;
+    margin:0 10px;
+    padding: 5px;
+    right: 10px;
+    
+}
+
+.lampu3 {
+   
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 50px
+}
+
+.button2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.button2 :hover {
+
+    color: white;
+    background-color: blue;
+    transition: .2s ease-in-out;
+    transition-delay: .0, 1s;
+    border-radius: 14px;
+}
+
+
+.button3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.button3 :hover {
+
+    color: white;
+    background-color: blue;
+    transition: .2s ease-in-out;
+    transition-delay: .0, 1s;
+    border-radius: 14px;
+}
