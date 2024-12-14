@@ -1,1 +1,0 @@
-# gabyana-wijaya12
